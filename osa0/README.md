@@ -1,1 +1,1 @@
-Yleistä
+Web-sovelluksen toimintaperiaatteita
