@@ -1,0 +1,4 @@
+title Uusi muistiinpano
+
+Selain: https://studies.cs.helsinki.fi/exampleapp/new_note_spa
+note right of Palvelin: Selain ei lähetä POST methodia palvelimelle. JSON-data päivittyy selaimessa: Request Payload {"content":"Ei palvelinta","date":"2021-03-10T07:53:42.151Z"}
