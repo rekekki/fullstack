@@ -1,0 +1,29 @@
+title Sivun lataaminen
+
+Selain->Palvelin: https://studies.cs.helsinki.fi/exampleapp/notes
+note right of Palvelin: Palvelin käsittelee pyynnön
+Palvelin->Selain: HTML-koodi
+Selain->Palvelin: https://studies.cs.helsinki.fi/exampleapp/main.css
+note right of Palvelin: Palvelin käsittelee pyynnön
+Palvelin->Selain: CSS-tiedosto
+Selain->Palvelin: https://studies.cs.helsinki.fi/exampleapp/main.js
+note left of Selain: Selain suorittaa main.js koodia, joka pyytää JSON-dataa palvelimelta
+Selain->Palvelin: https://studies.cs.helsinki.fi/exampleapp/data.json
+Palvelin->Selain: {content: "Terve maailma", date: "2021-03-10T07:16:26.815Z"}
+note left of Selain: Selain suorittaa tapahtumankäsittelijän, joka renderöi muistiinpanot näytölle
+
+title Uusi muistiinpano
+
+Selain->Palvelin: https://studies.cs.helsinki.fi/exampleapp/notes
+note right of Palvelin: Palvelin käsittelee pyynnön, GET method
+Palvelin->Selain: HTML-koodi
+Selain->Palvelin: https://studies.cs.helsinki.fi/exampleapp/main.css
+note right of Palvelin: Palvelin käsittelee pyynnön, GET method
+Palvelin->Selain: CSS-tiedosto
+Selain->Palvelin: https://studies.cs.helsinki.fi/exampleapp/main.js
+note left of Selain: Selain suorittaa main.js koodia, joka pyytää JSON-dataa palvelimelta, GET method
+Selain->Palvelin: https://studies.cs.helsinki.fi/exampleapp/data.json
+Palvelin->Selain: {content: "Moikka moi", date: "2021-03-10T07:32:29.098Z"}
+note left of Selain: Selain suorittaa tapahtumankäsittelijän, joka renderöi muistiinpanot näytölle, GET method
+Selain->Palvelin: https://studies.cs.helsinki.fi/exampleapp/new_note
+note right of Palvelin: Palvelin käsittelee pyynnön, POST method
