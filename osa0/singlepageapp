@@ -1,0 +1,13 @@
+title Sivun lataaminen
+
+Selain->Palvelin: https://studies.cs.helsinki.fi/exampleapp/spa
+note right of Palvelin: Palvelin käsittelee pyynnön, GET method
+Palvelin->Selain: HTML-koodi
+Selain->Palvelin: https://studies.cs.helsinki.fi/exampleapp/main.css
+note right of Palvelin: Palvelin käsittelee pyynnön, GET method
+Palvelin->Selain: CSS-tiedosto
+Selain->Palvelin: https://studies.cs.helsinki.fi/exampleapp/spa.js
+note left of Selain: Selain suorittaa spa.js koodia, joka pyytää JSON-dataa palvelimelta, GET method
+Selain->Palvelin: https://studies.cs.helsinki.fi/exampleapp/data.json
+Palvelin->Selain: {content: "8ii8i8i8", date: "2021-03-10T07:35:07.620Z"}
+note left of Selain: Selain suorittaa tapahtumankäsittelijän, joka renderöi muistiinpanot näytölle, GET method
