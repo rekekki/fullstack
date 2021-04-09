@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Header = props =>
+const Header = (props) =>
   <h1>{props.course.name}</h1>
 
 const Total = (props) => {
@@ -11,7 +11,7 @@ const Total = (props) => {
   )
 }
 
-const Part = props =>
+const Part = (props) =>
   <p>{props.name} {props.exercises}</p>
 
 const Content = (props) => {
