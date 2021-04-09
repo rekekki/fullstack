@@ -1,0 +1,24 @@
+{
+  "persons":[
+    { 
+      "name": "Aku Ankka", 
+      "number": "040-123456",
+      "id": 1
+    },
+    { 
+      "name": "Tupu", 
+      "number": "044-123456",
+      "id": 2
+    },
+    { 
+      "name": "Hupu", 
+      "number": "044-112233",
+      "id": 3
+    },
+    { 
+      "name": "Lupu", 
+      "number": "044-456789",
+      "id": 4
+    }
+  ]
+}
